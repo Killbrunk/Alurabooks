@@ -34,6 +34,9 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    border: 2px solid rgb(15, 15, 39);
+    border-radius: 0 22px 20px 0;
+    z-index: 2;
 }
 
 .container__botao:checked~.lista-menu {
@@ -48,10 +51,20 @@
     background-color: var(--branco);
 }
 
+.lista-menu__item1 {
+
+    padding: 1em;
+    background-color: var(--branco);
+    border-radius: 0 0 20px 0 ;
+
+}
+
 .lista-menu__titulo {
 
     color: var(--laranja);
     font-weight: 700;
+    border: 2px solid var(--branco);
+    border-radius: 0 20px 0 0 ;
 }
 
 .lista-menu__link {
